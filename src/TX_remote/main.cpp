@@ -13,7 +13,7 @@ Adafruit_SSD1306 display(128, 64, &Wire, -1);
 // Receiver MAC
 uint8_t receiverMAC[] = {0x24, 0xD7, 0xEB, 0xEB, 0xFA, 0x81};
 
-//int16_t adc0, adc1;
+int16_t adc0, adc1;
 
 const int boxSize = 50;                 // Size of the square in pixels
 const int boxX0 = (128  - boxSize) / 2;
